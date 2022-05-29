@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cats-pinterest/static/css/main.94e5b59e.css",
-    "main.js": "/cats-pinterest/static/js/main.f2bc4856.js",
+    "main.js": "/cats-pinterest/static/js/main.ee9a16be.js",
     "index.html": "/cats-pinterest/index.html",
     "main.94e5b59e.css.map": "/cats-pinterest/static/css/main.94e5b59e.css.map",
-    "main.f2bc4856.js.map": "/cats-pinterest/static/js/main.f2bc4856.js.map"
+    "main.ee9a16be.js.map": "/cats-pinterest/static/js/main.ee9a16be.js.map"
   },
   "entrypoints": [
     "static/css/main.94e5b59e.css",
-    "static/js/main.f2bc4856.js"
+    "static/js/main.ee9a16be.js"
   ]
 }
