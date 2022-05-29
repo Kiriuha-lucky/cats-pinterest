@@ -23,10 +23,10 @@ function App() {
             path='https://kiriuha-lucky.github.io/cats-pinterest/favorites'
             element={<FavoritesPage />}
           />
-          <Route
+          {/* <Route
             path='https://kiriuha-lucky.github.io/cats-pinterest/*'
             element={<NotFound />}
-          />
+          /> */}
         </Routes>
       </BrowserRouter>
     </Context.Provider>
