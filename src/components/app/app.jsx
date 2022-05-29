@@ -16,15 +16,15 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route
-            path='/'
+            path='https://kiriuha-lucky.github.io/cats-pinterest/'
             element={<Main />}
           />
           <Route
-            path='/favorites'
+            path='https://kiriuha-lucky.github.io/cats-pinterest/favorites'
             element={<FavoritesPage />}
           />
           <Route
-            path='*'
+            path='https://kiriuha-lucky.github.io/cats-pinterest/*'
             element={<NotFound />}
           />
         </Routes>
