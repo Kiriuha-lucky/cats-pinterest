@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Route, BrowserRouter, Routes } from 'react-router-dom';
+import { Route, HashRouter, Routes } from 'react-router-dom';
 import { Context } from '../../services/context';
 import { readFavoritesCats } from '../../services/favorites';
 import { FavoritesPage } from '../favorites-page/favorites-page';
@@ -13,22 +13,22 @@ function App() {
 
   return (
     <Context.Provider value={[favoritesCats, setFavoritesCats]}>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route
-            path='https://kiriuha-lucky.github.io/cats-pinterest/'
+            path='/'
             element={<Main />}
           />
           <Route
-            path='https://kiriuha-lucky.github.io/cats-pinterest/favorites'
+            path='/favorites'
             element={<FavoritesPage />}
           />
-          {/* <Route
-            path='https://kiriuha-lucky.github.io/cats-pinterest/*'
+          <Route
+            path='*'
             element={<NotFound />}
-          /> */}
+          />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </Context.Provider>
   );
 }
