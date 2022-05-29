@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Kiriuha-lucky/cats-pinterest/static/css/main.94e5b59e.css",
-    "main.js": "/Kiriuha-lucky/cats-pinterest/static/js/main.9fabde72.js",
-    "index.html": "/Kiriuha-lucky/cats-pinterest/index.html",
-    "main.94e5b59e.css.map": "/Kiriuha-lucky/cats-pinterest/static/css/main.94e5b59e.css.map",
-    "main.9fabde72.js.map": "/Kiriuha-lucky/cats-pinterest/static/js/main.9fabde72.js.map"
+    "main.css": "/static/css/main.94e5b59e.css",
+    "main.js": "/static/js/main.9fabde72.js",
+    "index.html": "/index.html",
+    "main.94e5b59e.css.map": "/static/css/main.94e5b59e.css.map",
+    "main.9fabde72.js.map": "/static/js/main.9fabde72.js.map"
   },
   "entrypoints": [
     "static/css/main.94e5b59e.css",
